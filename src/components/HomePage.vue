@@ -8,9 +8,9 @@
       <div class="avatar"></div>
     </header>
     <div class="group-session">
-      <a href="/group-session">
+      <router-link to="/group-session">
         <button>Group Session</button>
-      </a>
+      </router-link>
     </div>
 
     <div class="timer-container">
@@ -22,9 +22,9 @@
 
     <div class="buttons-container">
       <button>Start Timer</button>
-      <a href="/tasks">
+      <router-link to="/tasks">
         <button>Task List</button>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>

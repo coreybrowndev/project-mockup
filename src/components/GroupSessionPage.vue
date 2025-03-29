@@ -41,9 +41,9 @@ import ProgressBar from "@/components/ProgressBar.vue";
         <button>Invite friends</button>
       </a>
       <div class="buttons-container">
-        <a href="/">
+        <router-link to="/">
           <button>Home</button>
-        </a>
+        </router-link>
       </div>
       <div class="progress-container">
         <p>Estimated completion level</p>

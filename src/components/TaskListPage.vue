@@ -28,9 +28,9 @@ import ProgressBar from "@/components/ProgressBar.vue";
       </div>
     </div>
     <div class="buttons-container">
-      <a href="/">
+      <router-link to="/">
         <button>Home</button>
-      </a>
+      </router-link>
     </div>
     <div class="progress-container">
       <p>Recent Progress</p>

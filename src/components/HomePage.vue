@@ -8,7 +8,9 @@
       <div class="avatar"></div>
     </header>
     <div class="group-session">
-      <button>Group Session</button>
+      <a href="/group-session">
+        <button>Group Session</button>
+      </a>
     </div>
 
     <div class="timer-container">
@@ -19,9 +21,10 @@
     </div>
 
     <div class="buttons-container">
-      <button>Start</button>
-      <button>Pause</button>
-      <button>Task List</button>
+      <button>Start Timer</button>
+      <a href="/tasks">
+        <button>Task List</button>
+      </a>
     </div>
   </div>
 </template>
@@ -120,7 +123,11 @@ header h1 {
   cursor: pointer;
 }
 
-.buttons-container button:last-child {
+.buttons-container a {
+  width: 100%;
+}
+
+.buttons-container a button {
   padding: 10px 20px;
   width: 100%;
   background: white;

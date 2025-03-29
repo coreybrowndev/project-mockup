@@ -4,7 +4,7 @@ import TaskView from "@/views/TaskView.vue";
 import GroupSessionView from "@/views/GroupSessionView.vue";
 
 const router = createRouter({
-  history: createWebHashHistory("/project-mockup/"),
+  history: createWebHashHistory(`/project-mockup/`),
   routes: [
     {
       path: "/",
